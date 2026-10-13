@@ -11,3 +11,7 @@ Programação Web.
 - HTML
 - Git
 - GitHub
+
+- ## Captura de tela
+
+![Página aberta com DevTools](captura.png)
