@@ -14,4 +14,4 @@ Programação Web.
 
 - ## Captura de tela
 
-![Página aberta com DevTools](captura.png)
+![Página aberta com DevTools](Captura.png.png)
