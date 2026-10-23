@@ -18,4 +18,4 @@ Programação Web.
 
 ## Captura de tela
 
-![Página aberta: Entre em contato](Tela entre em contato.png.png)
+![Print](Tela entre em contato.png.png)
