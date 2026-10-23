@@ -18,4 +18,4 @@ Programação Web.
 
 ## Captura de tela
 
-![Print]([Tela entre em contato.png.png](https://github.com/marcospcupertinomg-dotcom/PROGRAMA-O-WEB-I/blob/c81803952190f390e44a9d92f4b7d1ded85d686d/Tela%20entre%20em%20contato.png.png)
+![Texto alternativo da imagem](https://github.com/marcospcupertinomg-dotcom/PROGRAMA-O-WEB-I/blob/c074a63fdffe1b04d7c73eadef6bd6d97e44b7e1/Tela%20entre%20em%20contato.png.png)
