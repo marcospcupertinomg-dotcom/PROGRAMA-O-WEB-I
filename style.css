@@ -1,0 +1,487 @@
+html
+/* ---------- Base: fonte e cor dos textos ---------- */
+body {
+    margin: 15;
+    padding: 0;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #2d0606;
+    background-color: #cfcdc1;
+}
+ 
+/* ---------- Cabeçalho ---------- */
+header {
+    background-color: #5c565a;
+    color: #14171b;
+    padding: 8px 6px;
+    border-bottom: 0px solid #9b8d6e;
+}
+ 
+header p {
+    margin: 0 0 8px 0;
+    color: #ca9851;
+}
+ 
+/* ---------- Títulos ---------- */
+h1 {
+    margin: 0 0 8px 0;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 6rem;
+    color: #ffffff;
+}
+ 
+h2 {
+    margin-top: 20;
+    padding-bottom: 10px;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 2rem;
+    color: #08100f;
+    border-bottom: 2px solid #e0a526;
+}
+ 
+h3 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.2rem;
+    color: #465654;
+}
+h4 {
+    margin-top: 0;
+    padding-bottom: 5px;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.0rem;
+    color: #2a2825;
+    border-bottom: 2px solid #5c5441;}
+ 
+/* h2 e h3 dentro do cabeçalho: cor clara, sem linha */
+header h2,
+header h3 {
+    margin: 0 0 8px 0;
+    color: #d0d0b7;
+    border-bottom: none;
+}
+ 
+/* ---------- Navegação (links e :hover) ---------- */
+nav a {
+    display: inline-block;
+    margin: 1px 10px 6px 0;
+    padding: 2px 10px;
+    color: #301313;
+    text-decoration: none;
+    border: 1px solid #282525;
+    border-radius: 2px;
+}
+ 
+nav a:hover {
+    background-color: #5b5850;
+    color: #7c8685;
+    border-color: #e0a526;
+}
+ 
+/* Navegação dentro do conteúdo (links externos): cores adaptadas ao fundo branco */
+main nav a {
+    color: #acb6b5;
+    border-color: #9dacaa;
+}
+ 
+main nav a:hover {
+    background-color: #afb7b6;
+    color: #85b0bf;
+    border-color: #b2c2c1;
+}
+ 
+/* ---------- Conteúdo principal ---------- */
+main {
+    width: 100%;
+    max-width: 3500px;
+    margin: 2px auto;
+}
+ 
+/* Seção com cor de fundo, borda e espaçamentos */
+section {
+    background-color: #ced4cb;
+    border: 1px solid #ddefe8;
+    border-radius: 10px;
+    padding: 1px;
+    margin-bottom: 2px;
+}
+ 
+p {
+    margin: 0  8px 0;
+    text-align: justify;
+}
+ 
+/* Listas de interesses */
+ul {
+    padding-left: 15px;
+}
+ 
+li {
+    margin-bottom: 5px;
+}
+ 
+li::marker {
+    color: #e0a526;
+}
+ 
+/* Seletor de classe: texto em destaque */
+.destaque {
+    background-color: #fff6df;
+    border-left: 5px solid #e0a526;
+    padding: 6px 16px;
+}
+ 
+/* Links dentro do conteúdo */
+main a {
+    color: #1f4e4a;
+    font-weight: bold;
+}
+ 
+main a:hover {
+    color: #b3790a;
+}
+ 
+/* ---------- Imagens ---------- */
+img {
+    width: 160px;
+    height: 180px;
+    object-fit: cover;
+    border: 4px solid #1f4e4a;
+    border-radius: 2px;
+    margin: 0 12px 16px 0;
+    vertical-align: top;
+}
+ 
+/* ---------- Formulário de contato ---------- */
+form {
+    margin-top: 10px;
+}
+ 
+fieldset {
+    background-color: #9E9E9E;
+    border: 30px solid #9E9E9E;
+    border-radius: 8px;
+    padding: 20px 8px;
+    margin-bottom: 1px;
+}
+ 
+legend {
+    padding: 2px;
+    font-weight: bold;
+    color: #181717;
+}
+ 
+label {
+    display: block;
+    margin-bottom: 2px;
+    font-weight: bold;
+}
+ 
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+    margin: 4;
+    border: 2px solid #000101;
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: 1rem;
+}
+ 
+input:focus,
+textarea:focus {
+    outline: none;
+    border-color: #18140b;
+    background-color: #fffdf6;
+}
+ 
+textarea {
+    height: 280px;
+    resize: vertical;
+}
+ 
+button {
+    padding: 8px 40px;
+    margin-right: 0px;
+    border: none;
+    border-radius: 2px;
+    background-color: #7a7220;
+    color: #ffffff;
+    font-size: 1rem;
+    cursor: pointer;
+}
+ 
+button:hover {
+    background-color: #787551;
+    color: #ffffff;
+}
+ 
+/* ---------- Rodapé ---------- */
+footer {
+    background-color: #bdb87f;
+    color: #ffffff;
+    text-align: center;
+    padding: 18px;
+    border-top: 10px solid #e5e2d9;
+}
+ 
+footer h3 {
+    margin: 0 0 9px 0;
+    color: #1d1515;
+}
+ 
+footer nav a {
+    color: #140f01;
+    border-color: #36190d;
+}
+ 
+footer nav a:hover {
+    background-color: #cdd499;
+    color: #212323;
+    border-color: #ffffff;
+}html
+/* ---------- Base: fonte e cor dos textos ---------- */
+body {
+    margin: 15;
+    padding: 0;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #2d0606;
+    background-color: #cfcdc1;
+}
+ 
+/* ---------- Cabeçalho ---------- */
+header {
+    background-color: #5c565a;
+    color: #14171b;
+    padding: 8px 6px;
+    border-bottom: 0px solid #9b8d6e;
+}
+ 
+header p {
+    margin: 0 0 8px 0;
+    color: #ca9851;
+}
+ 
+/* ---------- Títulos ---------- */
+h1 {
+    margin: 0 0 6px 0;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 4rem;
+    color: #ffffff;
+}
+ 
+h2 {
+    margin-top: 20;
+    padding-bottom: 10px;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 2rem;
+    color: #08100f;
+    border-bottom: 2px solid #e0a526;
+}
+ 
+h3 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.2rem;
+    color: #465654;
+}
+h4 {
+    margin-top: 0;
+    padding-bottom: 5px;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.0rem;
+    color: #2a2825;
+    border-bottom: 2px solid #5c5441;}
+ 
+/* h2 e h3 dentro do cabeçalho: cor clara, sem linha */
+header h2,
+header h3 {
+    margin: 0 0 8px 0;
+    color: #d0d0b7;
+    border-bottom: none;
+}
+ 
+/* ---------- Navegação (links e :hover) ---------- */
+nav a {
+    display: inline-block;
+    margin: 1px 10px 6px 0;
+    padding: 2px 10px;
+    color: #f4eeee;
+    text-decoration: none;
+    border: 1px solid #f1ecec;
+    border-radius: 2px;
+}
+ 
+nav a:hover {
+    background-color: #5b5850;
+    color: #7c8685;
+    border-color: #e0a526;
+}
+ 
+/* Navegação dentro do conteúdo (links externos): cores adaptadas ao fundo branco */
+main nav a {
+    color: #030909;
+    border-color: #141919;
+}
+ 
+main nav a:hover {
+    background-color: #b2bfbd;
+    color: #85b0bf;
+    border-color: #b2c2c1;
+}
+ 
+/* ---------- Conteúdo principal ---------- */
+main {
+    width: 100%;
+    max-width: 3500px;
+    margin: 2px auto;
+}
+ 
+/* Seção com cor de fundo, borda e espaçamentos */
+section {
+    background-color: #ced4cb;
+    border: 1px solid #ddefe8;
+    border-radius: 10px;
+    padding: 1px;
+    margin-bottom: 2px;
+}
+ 
+p {
+    margin: 0  8px 0;
+    text-align: justify;
+}
+ 
+/* Listas de interesses */
+ul {
+    padding-left: 15px;
+}
+ 
+li {
+    margin-bottom: 5px;
+}
+ 
+li::marker {
+    color: #e0a526;
+}
+ 
+/* Seletor de classe: texto em destaque */
+.destaque {
+    background-color: #fff6df;
+    border-left: 5px solid #e0a526;
+    padding: 6px 16px;
+}
+ 
+/* Links dentro do conteúdo */
+main a {
+    color: #1f4e4a;
+    font-weight: bold;
+}
+ 
+main a:hover {
+    color: #b3790a;
+}
+ 
+/* ---------- Imagens ---------- */
+img {
+    width: 160px;
+    height: 180px;
+    object-fit: cover;
+    border: 4px solid #1f4e4a;
+    border-radius: 2px;
+    margin: 0 12px 16px 0;
+    vertical-align: top;
+}
+ 
+/* ---------- Formulário de contato ---------- */
+form {
+    margin-top: 10px;
+}
+ 
+fieldset {
+    background-color: #9E9E9E;
+    border: 30px solid #9E9E9E;
+    border-radius: 8px;
+    padding: 20px 8px;
+    margin-bottom: 1px;
+}
+ 
+legend {
+    padding: 1px;
+    font-weight: bold;
+    color: #111010;
+}
+ 
+label {
+    display: block;
+    margin-bottom: 12px;
+    font-weight: bold;
+}
+ 
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+    margin: 4;
+    border: 2px solid #000101;
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: 1rem;
+}
+ 
+input:focus,
+textarea:focus {
+    outline: none;
+    border-color: #18140b;
+    background-color: #fffdf6;
+}
+ 
+textarea {
+    height: 280px;
+    resize: vertical;
+}
+ 
+button {
+    padding: 8px 40px;
+    margin-right: 0px;
+    border: none;
+    border-radius: 2px;
+    background-color: #7a7220;
+    color: #ffffff;
+    font-size: 1rem;
+    cursor: pointer;
+}
+ 
+button:hover {
+    background-color: #787551;
+    color: #ffffff;
+}
+ 
+/* ---------- Rodapé ---------- */
+footer {
+    background-color: #bdb87f;
+    color: #ffffff;
+    text-align: center;
+    padding: 18px;
+    border-top: 10px solid #e5e2d9;
+}
+ 
+footer h3 {
+    margin: 0 0 9px 0;
+    color: #1d1515;
+}
+ 
+footer nav a {
+    color: #140f01;
+    border-color: #36190d;
+}
+ 
+footer nav a:hover {
+    background-color: #cdd499;
+    color: #212323;
+    border-color: #ffffff;
+}
