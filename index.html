@@ -1,27 +1,35 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Minha primeira página Web</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Pessoal</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Minha primeira página Web</h1>
-  <p>Seja bem-vindo(a) à minha primeira página desenvolvida na disciplina Programação Web I!</p>
-  <p>Nome: Marcos Pereira Cupertino</p>
-</body>
-</html>
-<body>
 
-    <section>
-        
-        <h2>Formação</h2>
-        <p> Minha trajetória acadêmica teve início em 2007, com o curso técnico em Agroindústria
-            na Universidade Federal de Viçosa (Campus Florestal-MG). Em 2008, ingressei no curso de
-            Administração com ênfase em Agronegócios (FACIG). Posteriormente, concluí
-            pós-graduações em Gestão Pública (UFV) e Inteligência Policial (FACUMINAS).</p>
-            <h2>Atividade Profissional.</h2>
-            <p> Minha trajetória profissional no setor privado começou com um emprego de meio
+    <header>
+        <h1>Minha primeira página Web</h1>
+        <h2>Seja bem-vindo(a) à minha primeira página desenvolvida na disciplina Programação Web I!</h2>
+        <h2>Nome: Marcos Pereira Cupertino</h2>
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="sobre.html">Hobbies</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>Formação</h2>
+            <p>Minha trajetória acadêmica teve início em 2007, com o curso técnico em Agroindústria
+                na Universidade Federal de Viçosa (Campus Florestal-MG). Em 2008, ingressei no curso de
+                Administração com ênfase em Agronegócios (FACIG). Posteriormente, concluí
+                pós-graduações em Gestão Pública (UFV) e Inteligência Policial (FACUMINAS).</p>
+
+            <h2>Atividade Profissional</h2>
+            <p>Minha trajetória profissional no setor privado começou com um emprego de meio
                 período em uma empresa de comunicação, no jornal "Diário de Manhuaçu".
                 Posteriormente, trabalhei nos setores de distribuição de bebidas (Coca-Cola)
                 e bancário (Itaú Unibanco). Em 2011, ingressei no setor público como Técnico
@@ -30,40 +38,33 @@
                 Por fim, em 2021, ingressei na Polícia Rodoviária Federal, instituição na qual
                 exerço minhas funções atualmente.</p>
 
+            <a href="https://www.gov.br/prf/pt-br" target="_blank" rel="noopener">
+                <img src="img/PRF.png" alt="Foto PRF">
+            </a>
+            <a href="https://www.ufv.br/" target="_blank" rel="noopener">
+                <img src="img/UFV.jpg" alt="Foto UFV">
+            </a>
 
-
-        <img src="Imagens/UFV.jpg"alt:"Foto UFV" img>
-        <img src="Imagens/PRF.png"alt:"Foto PRF" img>
-
-<p style="text-indent: 2em; line-height: 1.6;">
-        
-        <nav>
-        <a href="https://www.ufv.br/">Site Universidade Federal de Viçosa</a>
-        </nav>
-        <a href="https://www.gov.br/prf/pt-br">Polícia Rodoviária Federal</a>
-        </nav>
-
-    <section>
-
-
-        <section>
-            <h2> Meus hobbies e interesses </h2>
-            <P> Fora da rotina profissional, gosto de:</p>
-                <ul>
-<li>Atividades ao ar livre (caminhada e ciclismo),</li>
-<li>Ouvir músicas,</li>
-<li>Carpintaria e mecânica de automóveis.</li>
-
-<a href="sobre.html">Saiba mais...</a>
-</ul>
-
-
+            <nav>
+                <a href="https://www.gov.br/prf/pt-br">Polícia Rodoviária Federal</a>
+                <a href="https://www.ufv.br/">Universidade Federal de Viçosa</a>
+            </nav>
         </section>
 
-    <main>
+        <section>
+            <h2>Meus hobbies e interesses</h2>
+            <p>Fora da rotina profissional, gosto de:</p>
+            <ul>
+                <li>Atividades ao ar livre (caminhada e ciclismo),</li>
+                <li>Ouvir músicas,</li>
+                <li>Carpintaria e mecânica de automóveis.</li>
+            </ul>
+            <a href="sobre.html">Saiba mais...</a>
+        </section>
+
         <section>
             <h2>Trabalho e Projetos</h2>
-            <p>Atualmente, atuo na área finalística da Polícia Rodoviária Federal. Dentre
+            <p class="destaque">Atualmente, atuo na área finalística da Polícia Rodoviária Federal. Dentre
                 essas atividades, incluem-se a fiscalização de trânsito, a repressão ao crime,
                 o atendimento de acidentes e a perícia administrativa dos locais de sinistros.
                 Considerando que as novas tecnologias baseadas em inteligência artificial
@@ -73,58 +74,57 @@
                 setor público, propondo soluções tecnológicas que tornem os serviços mais
                 eficientes, seguros e acessíveis à população.</p>
         </section>
+
+        <section id="contato">
+            <h2>Entre em contato</h2>
+
+            <form action="#" method="post">
+
+                <fieldset>
+                    <legend>Seus dados</legend>
+
+                    <p>
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+                    </p>
+
+                    <p>
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+                    </p>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Sua mensagem</legend>
+
+                    <p>
+                        <label for="assunto">Assunto:</label>
+                        <input type="text" id="assunto" name="assunto" placeholder="Sobre o que deseja falar?">
+                    </p>
+
+                    <p>
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea id="mensagem" name="mensagem" rows="6" cols="40" placeholder="Escreva sua mensagem aqui" required></textarea>
+                    </p>
+                </fieldset>
+
+                <p>
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpar</button>
+                </p>
+
+            </form>
+        </section>
+
     </main>
 
     <footer>
-
         <h3>Marcos Pereira Cupertino</h3>
-        <nav>    
-        <a href="https://www.instagram.com/marcospcupertino/">Meu Instagran</a>
-        </nav>
-        <a href="https://www.escavador.com/sobre/3516053/marcos-pereira-cupertino/">Meu Currículo</a>
         <nav>
+            <a href="https://www.instagram.com/marcospcupertino/">Meu Instagram</a>
+            <a href="https://www.escavador.com/sobre/3516053/marcos-pereira-cupertino/">Meu Currículo</a>
+        </nav>
     </footer>
 
 </body>
-
-<section id="contato">
-    <h2>Entre em contato</h2>
-
-    <form action="#" method="post">
-
-        <fieldset>
-            <legend>Seus dados</legend>
-
-            <p>
-                <label for="nome">Nome:</label>
-                <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
-            </p>
-
-            <p>
-                <label for="email">E-mail:</label>
-                <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
-            </p>
-        </fieldset>
-
-        <fieldset>
-            <legend>Sua mensagem</legend>
-
-            <p>
-                <label for="assunto">Assunto:</label>
-                <input type="text" id="assunto" name="assunto" placeholder="Sobre o que deseja falar?">
-            </p>
-
-            <p>
-                <label for="mensagem">Mensagem:</label><br>
-                <textarea id="mensagem" name="mensagem" rows="6" cols="40" placeholder="Escreva sua mensagem aqui" required></textarea>
-            </p>
-        </fieldset>
-
-        <p>
-            <button type="submit">Enviar</button>
-            <button type="reset">Limpar</button>
-        </p>
-
-    </form>
-</section>
 </html>
