@@ -30,5 +30,5 @@ Programação Web.
 
 ##Captura de tela:
 
-![Pagina Pessoal](https://github.com/marcospcupertinomg-dotcom/PROGRAMA-O-WEB-I/blob/main/Captura%20de%20tela.%20Pagina%20Pessoal.jpeg)
+![Pagina Pessoal](https://github.com/marcospcupertinomg-dotcom/PROGRAMA-O-WEB-I/blob/main/Captura%20tela.jpeg?raw=true)
 
